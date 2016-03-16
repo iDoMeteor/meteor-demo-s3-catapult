@@ -1,0 +1,34 @@
+{
+  "AWSACL": "public-read",
+  "AWSAccessKeyId": "",
+  "AWSBucketName": "",
+  "AWSRegion": "",
+  "AWSSecretAccessKey": "",
+  "debug": "true",
+  "public": {
+    "debug": "true",
+    "httpTimeout": "10000"
+  },
+  "Catapult": {
+    "mimeTypes": [
+      "application/pdf",
+      "application/x-compressed",
+      "application/x-gzip",
+      "application/x-tar",
+      "application/x-tar",
+      "application/x-tar",
+      "application/x-tar",
+      "application/x-zip-compressed",
+      "image/gif",
+      "image/jpeg",
+      "image/png",
+      "multipart/x-gzip",
+      "multipart/x-zip",
+      "text/html",
+      "text/plain"
+    ],
+    "maxMB": "10",
+    "saveSourceLinksToDb": "true",
+    "saveTargetLinksToDb": "true"
+  }
+}
